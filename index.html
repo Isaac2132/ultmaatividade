@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnemVerso</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="echarts.min.js" defer></script>
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <button id="sideBarButton" aria-label="Toggle Sidebar">
+                <span class="menuBars"></span>
+                <span class="menuBars"></span>
+                <span class="menuBars"></span>
+            </button>
+            <h1 id="subject">Língua Portuguesa</h1>
+        </header>
+
+        <nav>
+            <img id="logo" src="/logo.png" alt="Logo EnemVerso">
+            <ul class="subject-list">
+                <li><button class="subject" id="linguaPortuguesa">Língua Portuguesa</button></li>
+                <li><button class="subject" id="literatura">Literatura</button></li>
+                <li><button class="subject" id="matematica">Matemática</button></li>
+                <li><button class="subject" id="fisica">Física</button></li>
+                <li><button class="subject" id="quimica">Química</button></li>
+                <li><button class="subject" id="biologia">Biologia</button></li>
+                <li><button class="subject" id="historia">História</button></li>
+                <li><button class="subject" id="geografia">Geografia</button></li>
+                <li><button class="subject" id="ingles">Inglês</button></li>
+                <li><button class="subject" id="espanhol">Espanhol</button></li>
+                <li><button class="subject" id="artes">Artes</button></li>
+                <li><button class="subject" id="sociologia">Sociologia</button></li>
+                <li><button class="subject" id="filosofia">Filosofia</button></li>
+                <li><button class="subject" id="edFisica">Educação Física</button></li>
+                <li><button class="subject" id="ti">Tecnologia da Informação</button></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="graphs">
+                <div class="graph" id="grafico_3b" aria-label="Gráfico 3B"></div>
+                <div class="graph" id="grafico_3a" aria-label="Gráfico 3A"></div>
+                <div class="graph" id="grafico_tads" aria-label="Gráfico TADS"></div>
+            </section>
+        </main>
+
+        <aside id="ads">
+            <h2>Ads</h2>
+        </aside>
+
+        <footer>
+            <p>&copy; 2024 EnemVerso. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
